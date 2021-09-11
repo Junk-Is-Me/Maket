@@ -169,3 +169,23 @@ h2 {
 #inputMessage {
     height: 175px;
 }
+
+.section_eight {
+    background-color: #EEEFF1;
+}
+
+.row_13 {
+    margin-top: 100px;
+    align-items: center;
+}
+
+.section_nine {
+    background-color: #34547A;
+}
+
+.contacts {
+    color: #EEEFF1;
+    height: 151px;
+    width: auto;
+    justify-content: space-between;
+}
