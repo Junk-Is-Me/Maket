@@ -30,8 +30,9 @@ p,
     padding: 0;
 }
 .container {
-    width: 1113px;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0px 20px;
+    max-width: 1200px
 }
 
 .section_first {
@@ -73,7 +74,7 @@ p,
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 26px;
-    color: #000000;  
+    color:sienna;  
 }
 
 .dropdown-menu {
@@ -154,16 +155,56 @@ h2 {
     margin-top: 100px;
 }
 
+.row_8 {
+    margin-top: 100px;
+}
+
 .video {
     margin-bottom: 100px;
 }
 
-.row_8 img {
+.gallery_2 {
+    display:flex;
+}
+
+.table {
     width: 300px;
     height: 300px;
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
+}
 
+.table_1 {
+    width: 300px ;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.color {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/laptop.png);
+    background-size: cover;
+}
+
+.color::before {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: sienna;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.micro {
+    width: 230px;
+    height: 120px;
+}
+
+.microsoft {
+    display:flex;
 }
 
 #inputMessage {
@@ -176,7 +217,6 @@ h2 {
 
 .row_13 {
     margin-top: 100px;
-    align-items: center;
 }
 
 .section_nine {
@@ -185,7 +225,29 @@ h2 {
 
 .contacts {
     color: #EEEFF1;
-    height: 151px;
-    width: auto;
     justify-content: space-between;
+    width: auto;
+    display: flex;
+}
+.img_vk {
+    width: 43.75px;
+    height: 22.82px;
+}
+
+.row_9 {
+    margin-top: 50px;
+}
+
+.container_1 {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.copyright {
+    margin-top: 50px;
+}
+
+.image {
+    margin-top: 50px;
 }
