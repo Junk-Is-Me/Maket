@@ -30,9 +30,9 @@ p,
     padding: 0;
 }
 .container {
-    margin: 0px auto;
-    padding: 0px 20px;
-    max-width: 1200px
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
 }
 
 .section_first {
@@ -185,8 +185,10 @@ h2 {
     display: block;
     width: 300px;
     height: 300px;
-    background-image: url(/img/laptop.png);
-    background-size: cover;
+    background-image: url(img/laptop.png);
+    background-size: 300px 300px;
+    padding: 0px;
+    color: chartreuse;
 }
 
 .color::before {
@@ -205,6 +207,12 @@ h2 {
 
 .microsoft {
     display:flex;
+    text-align: center;
+    align-items: center;
+}
+
+.row_10 {
+    margin-top: 70px;
 }
 
 #inputMessage {
@@ -213,21 +221,19 @@ h2 {
 
 .section_eight {
     background-color: #EEEFF1;
+    margin-bottom: 100px;
 }
 
 .row_13 {
     margin-top: 100px;
 }
 
-.section_nine {
-    background-color: #34547A;
-}
-
 .contacts {
     color: #EEEFF1;
     justify-content: space-between;
-    width: auto;
     display: flex;
+    width: 1920px;
+    height: 200px;
 }
 .img_vk {
     width: 43.75px;
@@ -236,18 +242,9 @@ h2 {
 
 .row_9 {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.container_1 {
-    max-width: 1200px;
-    padding: 0 20px;
-    margin: 0 auto;
-}
-
-.copyright {
-    margin-top: 50px;
-}
-
-.image {
-    margin-top: 50px;
+.section_test {
+    background: #34547A;
 }
